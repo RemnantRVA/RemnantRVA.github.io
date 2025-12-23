@@ -53,7 +53,7 @@ function App() {
             The Remnant Collective
           </h1>
           <p className='text-brand-gold/80 text-lg max-w-2xl mx-auto font-light'>
-            A directory of businesses, services, and skills within the Remnant
+            A directory of businesses, services, and skills within Remnant
             Church.
           </p>
         </div>

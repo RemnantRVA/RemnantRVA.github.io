@@ -377,4 +377,31 @@ export const businesses = [
       instagram: 'https://www.instagram.com/rlozoya1/',
     },
   },
+  {
+    id: 30,
+    name: 'Hewitt Solutions',
+    category: 'Real Estate',
+    description:
+      "We specialize in guiding you through the early stages of land development. Our consulting engineers help you understand what's possible for your project, outline the necessary steps, and assist in obtaining early-stage permits. Partner with us to make informed decisions that pave the way for a successful development.",
+    website: 'https://hewittsol.com/',
+    socials: {
+      linkedin: 'https://www.linkedin.com/in/ricky-hewitt-jr-pe-756b4a113',
+      youtube: 'https://youtu.be/0d0JAT5HPz0',
+    },
+  },
+  {
+    id: 31,
+    name: 'Colonial Plumbing & Heating Co., Inc.',
+    category: 'Home Improvement',
+    description:
+      'Longtime company providing plumbing and HVAC services, such as installation and repair.',
+    website: 'https://www.colonialplumbing.com/',
+    socials: {
+      facebook: 'https://www.facebook.com/ColonialPlumbing/',
+      linkedin:
+        'https://www.linkedin.com/company/colonial-plumbing-&-heating-co-',
+      twitter: 'https://x.com/ColonialPlumb',
+      instagram: 'https://www.instagram.com/colonialplumbinghvac/',
+    },
+  },
 ];
