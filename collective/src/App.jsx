@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { HashRouter, Routes, Route, Link } from "react-router-dom";
 import { businesses } from "./data";
 import { FortitudeFitness } from "./pages/FortitudeFitness";
 import {
@@ -15,17 +15,18 @@ import {
   MapPin,
   ExternalLink,
   Crown,
+  ArrowRight,
 } from "lucide-react";
 
 // Main App Component with Router
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/fortitude-fitness" element={<FortitudeFitness />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
@@ -158,6 +159,16 @@ function BusinessCard({ business }) {
         <p className="text-gray-600 text-sm leading-relaxed mb-4">
           {business.description}
         </p>
+
+        {business.internalLink && (
+          <Link
+            to={business.internalLink}
+            className="inline-flex items-center text-sm font-bold text-brand-gold hover:text-brand-dark mb-4 transition-colors"
+          >
+            View Full Profile
+            <ArrowRight className="w-4 h-4 ml-1" />
+          </Link>
+        )}
 
         {/* Contact Links */}
         <div className="space-y-2 mt-4 text-sm">
