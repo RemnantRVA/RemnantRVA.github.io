@@ -453,7 +453,39 @@ export const businesses = [
     description:
       "A Class A licensed contractor serving the Richmond metro area since 2008. They provide roof inspections, leak repairs, and full replacements using asphalt, metal, and synthetic slate materials.",
     website: "https://evergreenroofingva.com",
-    phone: "(804) 238-7837",
+    phone: "804-238-7837",
+    socials: {},
+  },
+  {
+    id: 37,
+    name: "Mid-Atlantic Technology Services",
+    category: "Technology",
+    description:
+      "Security integrators, fire alarm, burglary alarms, security cameras, door access, security film.",
+    website: "https://midatlantic-ts.com",
+    email: "masec@masec.com",
+    phone: "757-538-1264",
+    socials: {},
+  },
+  {
+    id: 38,
+    name: "Commonwealth Automation and Controls",
+    category: "Home Improvement",
+    description: "Commercial HVAC controls company.",
+    website: "https://commonwealthautomation.com",
+    email: "info@commonwealthautomation.com",
+    phone: "757-785-4748",
+    socials: {},
+  },
+  {
+    id: 39,
+    name: "Oak and Iron Flooring and Stairs",
+    category: "Home Improvement",
+    description:
+      "Hardwood floor and stairs sales and install, sand and finish.",
+    website: "https://oakandironva.com",
+    email: "",
+    phone: "804-229-5851",
     socials: {},
   },
 ];
