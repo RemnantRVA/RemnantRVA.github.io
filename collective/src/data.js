@@ -435,4 +435,14 @@ export const businesses = [
     phone: "817-880-4048",
     socials: {},
   },
+  {
+    id: 35,
+    name: "Fortitude Fitness",
+    category: "Health and Wellness",
+    description: "Personal training services for men and students.",
+    website: "./fortitude-fitness",
+    email: "zacharyonthehill@gmail.com",
+    phone: "804-301-5101",
+    socials: {},
+  },
 ];
