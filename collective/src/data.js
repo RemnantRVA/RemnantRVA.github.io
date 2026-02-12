@@ -424,4 +424,15 @@ export const businesses = [
     phone: "804-363-5787",
     socials: {},
   },
+  {
+    id: 34,
+    name: "American Red Cross CPR/First Aid/AED Training",
+    category: "Health, Safety, OSHA",
+    description:
+      "Quality, in-person, adult and child American Red Cross CPR/First Aid/AED training and certification that can be tailored to your needs, including meeting OSHA requirements.",
+    website: "",
+    email: "duerksen16@gmail.com",
+    phone: "817-880-4048",
+    socials: {},
+  },
 ];
